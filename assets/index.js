@@ -1,8 +1,6 @@
 // DETALLES DE JAVASCRIPT SOBRE VARIABLES//
 
 
-//cambiará color//
-
-
+//variable
 letnombre = "Valeria";
 console.log("Nombre:", nombre);
