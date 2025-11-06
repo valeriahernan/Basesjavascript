@@ -13,8 +13,8 @@ const pais = "Chile";
 
 /* reglas para nombrar variables */
 //ejemplos válidos de nombres de variables
-let apellido;
-let _contador;
+let apellido;   //undefined
+let _contador; 
 let $precioTotal;
 let numeroDeEstudiantes = 30
 
