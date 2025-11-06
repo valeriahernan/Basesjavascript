@@ -20,5 +20,8 @@ let numeroDeEstudiantes = 30
 
 //tipos de datos de las variables
 
-let saludo = "Hola"; //string o textoos
-let esEstudiante = true;
+let saludo = "Hola como estas? - 12"; //string o textoos
+let numero = 30; //número
+let decimal = 2.15; //número decimal
+let flag = true; //booleano (true o false)
+
