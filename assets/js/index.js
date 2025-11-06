@@ -2,8 +2,11 @@
 
 
 //variable
-letnombre = "Valeria";
-console.log("Nombre:", nombre);
+let nombre = "Valeria";
+console.log(nombre);
 
 let edad = 25;
-console.log("Edad:", edad);
+
+edad = 30
+console.log(edad);
+
