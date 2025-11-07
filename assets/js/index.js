@@ -30,7 +30,7 @@ let flag = true; //booleano (true o false)
 let vacio = null; //valor nulo
 let indefinido; //undefined
 
-// objeto persona
+// objeto persona objects
 let persona = {
 nombre: "Carlos",
 apellido: "Perez",
@@ -39,7 +39,7 @@ edad: 30
 
 console.log(persona);
 
-// arreglo de números
+// arreglo de números  arrays
 let compras = [Pan, Leche, Huevos, Frutas];
 console.log(compras);
 console.log(compras[0]); //acceder al tercer elemento del arreglo
