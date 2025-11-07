@@ -16,7 +16,7 @@ const pais = "Chile";
 let apellido;   //undefined
 let _contador; 
 let $precioTotal;
-let numeroDeEstudiantes = 30
+let numeroDeEstudiantes = 30;
 
 //tipos de datos de las variables
 
