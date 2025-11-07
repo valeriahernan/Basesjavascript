@@ -5,7 +5,7 @@ let nombre = "Valeria";
 console.log(nombre);
 
 let edad = 25;
-edad = 30;
+edad = 38;
 console.log(edad);
 
 const pais = "Chile";
