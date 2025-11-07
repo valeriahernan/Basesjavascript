@@ -8,6 +8,9 @@ let edad = 25;
 edad = 38;
 console.log(edad);
 
+let esEstudiante = true;
+console.log(esEstudiante);
+
 const pais = "Chile";
 // pais = "Brasil"; no se puede modificar una constante
 
