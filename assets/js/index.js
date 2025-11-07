@@ -34,7 +34,7 @@ let indefinido; //undefined
 let persona = {
 nombre: "Carlos",
 apellido: "Perez",
-edad: 30
+edad: 30,
 };
 
 console.log(persona);
