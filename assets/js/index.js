@@ -40,6 +40,12 @@ edad: 30,
 console.log(persona);
 
 // arreglo de números  arrays
-let compras = [Pan, Leche, Huevos, Frutas];
+let compras = ["Pan", "Leche", "huevos"];
 console.log(compras);
-console.log(compras[0]); //acceder al tercer elemento del arreglo
+console.log(compras[0]);
+console.log(compras[2]);
+
+let edades = [21, 23, 54, 65];
+const arreglo = [32, 54, 23];
+
+edades[0] = 18;
