@@ -38,3 +38,8 @@ edad: 30
 };
 
 console.log(persona);
+
+// arreglo de números
+let compras = [Pan, Leche, Huevos, Frutas];
+console.log(compras);
+console.log(compras[0]); //acceder al tercer elemento del arreglo
