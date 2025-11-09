@@ -1,55 +1,55 @@
-// bucles/
+// BUCLES EN JAVASCRIPT //
 
-// for
+// --- FOR ---
 for (let i = 1; i <= 5; i++) {
-console.log("Numero: " + i); // 1=1, 1=2, 1=3, 1=4, 1=5, 1=6
+  console.log("Número: " + i); // Muestra los números del 1 al 5
 }
 
-//ciclo while
+// --- WHILE ---
 let contador = 1;
 
 while (contador <= 5) {
-    //contador=1, contador=2, contador=3, contador=4, contador=5, contador=6
-    console.log("Contador: " + contador);
-    contador++
+  console.log("Contador: " + contador); // Muestra los números del 1 al 5
+  contador++;
 }
 
-//do while
+// --- DO WHILE ---
+let x = 1; // Se debe declarar antes de usar
 
 do {
-    console.log("Valor de x: " + x);
-    x++;
-} while (x < 5); //x=2, x=3, x=4, x=5, x=6
+  console.log("Valor de x: " + x); // Muestra los valores del 1 al 4
+  x++;
+} while (x < 5);
 
-// for of
-let frutas = ["Manzana", "Platano", "Naranja", "Mango"];
+// --- FOR OF ---
+let frutas = ["Manzana", "Plátano", "Naranja", "Mango"];
 
 for (let fruta of frutas) {
-    console.log(fruta);
+  console.log("Fruta: " + fruta); // Recorre los elementos del arreglo
 }
 
-//for in
+// --- FOR IN ---
 let persona = {
   nombre: "Alfredo",
   edad: 39,
   ciudad: "Santiago"
-}
+};
 
 for (let propiedad in persona) {
-  console.log(propiedad + ": " + persona[propiedad]);
+  console.log(propiedad + ": " + persona[propiedad]); // Muestra clave y valor del objeto
 }
 
-//cuidado con los bucles infinitos
-/*while (true){
-    console.log("se ejecuta siempre");
-}*/
+// --- BUCLE INFINITO (EJEMPLO — NO EJECUTAR) ---
+// while (true) {
+//   console.log("Se ejecuta siempre");
+// }
 
-//imprimir del 1 al 10
+// --- IMPRIMIR DEL 1 AL 10 ---
 for (let i = 1; i <= 10; i++) {
-    console.log(i);
+  console.log(i);
 }
 
-//contar hacia atras
+// --- CONTAR HACIA ATRÁS ---
 for (let i = 10; i >= 1; i--) {
-    console.log(i);
+  console.log(i);
 }
