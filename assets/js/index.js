@@ -38,14 +38,22 @@ edad: 30,
 };
 
 console.log(persona);
+console.log(persona);
+console.log(persona.nombre);
+console.log(persona["apellido"]);
 
-// arreglo de números  arrays
-let compras = ["Pan", "Leche", "huevos"];
+//arreglos
+let compras = ["Pan", "Leche", "Huevos"];
 console.log(compras);
 console.log(compras[0]);
 console.log(compras[2]);
 
-let edades = [21, 23, 54, 65];
+let edades = [31, 23, 54, 65];
 const arreglo = [32, 54, 23];
 
 edades[0] = 18;
+
+//declarar variables con var - pero se recomienda usar let
+var variable = "Algo";
+var variable = "otra cosa";
+/* no es recomendable hacer esto */
