@@ -39,7 +39,17 @@ for (let propiedad in persona) {
   console.log(propiedad + ": " + persona[propiedad]);
 }
 
-//cuidado con los bucles Infinitos
-while (true) {
-  console.log("se ejecuta siempre");
+//cuidado con los bucles infinitos
+/*while (true){
+    console.log("se ejecuta siempre");
+}*/
+
+//imprimir del 1 al 10
+for (let i = 1; i <= 10; i++) {
+    console.log(i);
+}
+
+//contar hacia atras
+for (let i = 10; i >= 1; i--) {
+    console.log(i);
 }
