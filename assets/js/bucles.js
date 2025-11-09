@@ -38,3 +38,8 @@ let persona = {
 for (let propiedad in persona) {
   console.log(propiedad + ": " + persona[propiedad]);
 }
+
+//cuidado con los bucles Infinitos
+while (true) {
+  console.log("se ejecuta siempre");
+}
