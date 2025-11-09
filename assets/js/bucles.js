@@ -28,3 +28,13 @@ for (let fruta of frutas) {
     console.log(fruta);
 }
 
+//for in
+let persona = {
+  nombre: "Alfredo",
+  edad: 39,
+  ciudad: "Santiago"
+}
+
+for (let propiedad in persona) {
+  console.log(propiedad + ": " + persona[propiedad]);
+}
