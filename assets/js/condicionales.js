@@ -8,3 +8,7 @@ let edad = 18;
 if (edad >= 18) {
     console.log("Eres mayor de edad, o sea puedes votar :D");
 }   
+//ejemplo de IF-ELSE
+else {
+    console.log("Eres menor de edad, no puedes votar mijo :(");
+}       
