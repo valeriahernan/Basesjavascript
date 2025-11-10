@@ -31,4 +31,6 @@ console.log(z); // 6
 //pre incremento
 let w = 8;
 console.log(++w);
-// 9
+// seria 9
+
+

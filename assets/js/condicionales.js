@@ -1,0 +1,10 @@
+//condicionales
+
+
+//ejemplo de IF
+
+let edad = 18;
+
+if (edad >= 18) {
+    console.log("Eres mayor de edad, o sea puedes votar :D");
+}   
