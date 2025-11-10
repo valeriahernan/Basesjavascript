@@ -28,3 +28,40 @@ if (true) {
     console.log("no se cumple la condición");
 
 }
+
+if (false)
+  console.log("una sola linea del if");
+else
+  console.log("una linea del else");
+
+//ejemplo con operadores logicos
+let usuario = "admin";
+let password = "1234";
+
+if (usuario === "admin")
+{
+    if (password === "1234")
+    {
+        console.log("Bienvenido al sistema");
+    }   else {
+        console.log("Contraseña incorrecta");
+    }       
+
+}   else {
+    console.log("Usuario no encontrado");
+}           
+
+//ejemplo con AND y OR
+let hora = 10;
+if (hora < 12 && hora >= 6) {
+    console.log("Buenos días");
+}       
+else if (hora < 18 && hora >= 12) {
+    console.log("Buenas tardes");
+}      
+else if (hora <= 24 && hora >= 18) {
+    console.log("Buenas noches");
+}       
+else {
+    console.log("Hora no válida");
+}       
