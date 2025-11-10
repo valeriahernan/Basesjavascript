@@ -21,3 +21,10 @@ if (false) {
 } else {
     //hace otra cosa má
 }   
+
+if (true) {
+    console.log("se cumple la condición");
+}   else {
+    console.log("no se cumple la condición");
+
+}
