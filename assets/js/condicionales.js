@@ -65,3 +65,16 @@ else if (hora <= 24 && hora >= 18) {
 else {
     console.log("Hora no válida");
 }       
+
+if (false)
+console.log("una sola linea del if");
+else
+console.log("una linea del else");
+// ejemplo con operadores lógicos
+let usuario = "admin";
+let password = "1234";
+if (usuario === "ADMIN" && password === "1234") {
+console.log("Acceso permitido");
+} else {
+console.log("Acceso denegado");
+}
