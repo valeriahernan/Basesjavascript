@@ -12,3 +12,12 @@ if (edad >= 18) {
 else {
     console.log("Eres menor de edad, no puedes votar mijo :(");
 }       
+
+if (false) {
+    //hace alogo
+} else if /(false)
+{
+    //hace otra cosa
+} else {
+    //hace otra cosa má
+}   
