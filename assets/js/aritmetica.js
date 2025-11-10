@@ -22,3 +22,13 @@ console.log(y);
 
 //orden de ejecución de los cargos (), **, *, /, %, +, -;
 console.log(5 + 2 * 3); // 11
+
+//post incremento
+let z = 5;
+console.log(z++); // 5
+console.log(z); // 6
+
+//pre incremento
+let w = 8;
+console.log(++w);
+// 9
