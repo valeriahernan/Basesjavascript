@@ -21,4 +21,4 @@ y--; // y - 1
 console.log(y);
 
 //orden de ejecución de los cargos (), **, *, /, %, +, -;
-consolelog(5 + 2 * 3); // 11
+console.log(5 + 2 * 3); // 11
