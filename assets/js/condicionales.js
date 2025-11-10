@@ -15,7 +15,7 @@ else {
 
 if (false) {
     //hace alogo
-} else if /(false)
+} else if (false)
 {
     //hace otra cosa
 } else {
